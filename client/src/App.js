@@ -1,8 +1,9 @@
+import Topbar from "./topbar/Topbar.js";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Topbar/>
     </div>
   );
 }

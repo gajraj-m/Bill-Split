@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 40px;
+    background-color: rgb(234, 234, 255);
+    position: sticky;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.68);
+}
+
+.topbarLeft{
+    margin: 5px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h2{
+    margin-left: 5px;
+}
+
+.topbarRight{
+    margin: 5px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
